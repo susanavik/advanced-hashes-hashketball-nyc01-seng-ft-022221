@@ -174,7 +174,7 @@ def player_stats(players_name)
     keys[:players].each do |player|
       if player_name == player[:player_name]
       return player[:points]
-      return player[:rebounds]
+      player[:rebounds]
       return player[:assists]
       return player[:steals]
       return player[:blocks]
